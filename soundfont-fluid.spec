@@ -5,6 +5,7 @@ Release:	1
 License:	MIT
 Group:		Applications
 Source0:	fluid-soundfont_%{version}.tar.gz
+# Source0-md5:	189bbdf70221018cbda536984b105dfa
 Obsoletes:	fluid-soundfont
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
